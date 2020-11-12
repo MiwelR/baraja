@@ -9,4 +9,8 @@ print("Mi baraja ordenada: ", miBaraja.mazacote)
 
 miBaraja.barajar()
 
-print("Mi baraja desordenada: ", miBaraja.mazacote)
+numerojugadores = int(input("¿Cuántos jugadores van a jugar?: "))
+numerocartas = int(input("¿Cuántas cartas se repartirán a cada jugador?: "))
+print(miBaraja.repartir(numerojugadores, numerocartas))
+
+#print("Mi baraja desordenada: ", miBaraja.mazacote)
